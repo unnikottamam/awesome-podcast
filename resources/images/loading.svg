@@ -1,0 +1,11 @@
+<svg id="loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="45" height="45" fill="#748FC6">
+    <path opacity=".1" d="M4 12 A4 4 0 0 0 4 20 A4 4 0 0 0 4 12" transform="translate(0 0)">
+        <animate attributeName="opacity" from="1" to="0" dur=".8s" repeatCount="indefinite" begin="0"/>
+    </path>
+    <path opacity=".1" d="M4 12 A4 4 0 0 0 4 20 A4 4 0 0 0 4 12" transform="translate(12 0)">
+        <animate attributeName="opacity" from="1" to="0" dur=".8s" repeatCount="indefinite" begin=".12s"/>
+    </path>
+    <path opacity=".1" d="M4 12 A4 4 0 0 0 4 20 A4 4 0 0 0 4 12" transform="translate(24 0)">
+        <animate attributeName="opacity" from="1" to="0" dur=".8s" repeatCount="indefinite" begin=".3s"/>
+    </path>
+</svg>
