@@ -16,11 +16,13 @@ if(!class_exists("PodcastPlugin")) {
      * class:   PodcastPlugin
      * desc:    plugin class to allow reports be pulled from multipe GA accounts
      */
+
     class PodcastPlugin {
         /**
          * Created an instance of the PodcastPlugin class
          */
         public function __construct() {
+            
             define( 'YOUR_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
             // Set up ACF
